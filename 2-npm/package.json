@@ -1,0 +1,20 @@
+{
+  "name": "2-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "index": "node index.js",
+    "include-module": "node include-module.js",
+    "testhook": "node index.js",
+    "pretesthook": "node index.js",
+    "prepretesthook": "node index.js",
+    "log-input-params": "node log-input-params.js",
+    "log-env": "node log-env.js"
+  },
+  "config": {
+    "port": "8080"
+  },
+  "author": "",
+  "license": "ISC"
+}
