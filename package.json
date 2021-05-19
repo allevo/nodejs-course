@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.7"
+  }
+}
