@@ -9,6 +9,7 @@ var otherString = `
 multiline string
 other line
 `
+var templateLiteral = `number in string is: ${number}`
 var ᾩ = "strange name"
 
 var boolean = true

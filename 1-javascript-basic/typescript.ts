@@ -40,3 +40,7 @@ class Point {
   }
 }
 let p = new Point(2, 2.0)
+
+type OnlyBoolsAndHorses = {
+  [key: string]: boolean | Point;
+};
