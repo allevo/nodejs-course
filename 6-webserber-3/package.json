@@ -1,0 +1,19 @@
+{
+  "name": "6-webserber-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.16.2",
+    "fastify-pug": "^2.0.0",
+    "fastify-static": "^4.2.2"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}

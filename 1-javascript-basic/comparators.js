@@ -10,12 +10,18 @@ console.log("one === secondOne", one === secondOne)
 console.log("one === two", one === two)
 console.log("null === null", null === null)
 console.log("undefined === undefined", undefined === undefined)
-console.log("NaN == NaN", NaN == NaN)
+console.log("null === undefined", null === undefined)
+console.log("NaN === NaN", NaN === NaN)
+console.log("{} === {}", {} === {})
+var a = {}
+var b = a
+console.log("a === b", a === b)
 
 // Disequal
 console.log('---- disequal ----')
 console.log("one !== secondOne", one !== secondOne)
 console.log("one !== two", one !== two)
+console.log("NaN !== NaN", NaN !== NaN)
 
 // comparators
 console.log('---- comparator ----')
